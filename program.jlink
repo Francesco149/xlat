@@ -1,0 +1,8 @@
+device STM32F746NG
+si SWD
+speed 4000
+connect
+loadfile ./xlat.elf
+r
+g
+q
